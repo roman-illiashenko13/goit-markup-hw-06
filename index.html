@@ -28,7 +28,7 @@
           >
           <ul class="header-menu-list">
             <li>
-              <a href="./index.html" class="header-menu-link-first">Studio</a>
+              <a href="./index.html" class="header-menu-link current">Studio</a>
             </li>
             <li><a href="" class="header-menu-link">Portfolio</a></li>
             <li><a href="" class="header-menu-link">Contacts</a></li>
@@ -48,6 +48,11 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="open-menu-btn">
+          <svg width="24" height="24">
+            <use href="./images/icons.svg#icon-Group"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main class="main">
@@ -486,17 +491,20 @@
                 class="footer-input"
               />
             </label>
-            <button type="submit" class="footer-btn">
-              Subscribe
-              <svg class="subscribe-img" width="24" height="24">
-                <use href="./images/icons.svg#icon-icon-send"></use>
-              </svg>
-            </button>
+            <div class="footer-btn-container">
+              <button type="submit" class="footer-btn">
+                Subscribe
+                <svg class="subscribe-img" width="24" height="24">
+                  <use href="./images/icons.svg#icon-icon-send"></use>
+                </svg>
+              </button>
+            </div>
           </form>
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+
+    <div class="backdrop ----is-open">
       <div class="modal">
         <button type="button" class="modal-close-btn">
           <svg width="8" height="8" class="icon-close-btn">
